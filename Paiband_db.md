@@ -1,5 +1,11 @@
 # Paiband - 手环数据库字典文档
 -  band_admin_log  行为日志表
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
 | 字段          | 类型           | 空  | 默认  | 注释  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
