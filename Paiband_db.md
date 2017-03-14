@@ -12,8 +12,7 @@
 |remark |longtext     |否   | 0  |   日志备注  |
 |created_at |int(11)     |是   | 0  |   注册时间  |
 |updated_at |int(11)     |是   | 0  |   修改时间  |
--
--
+
 - band_app_versions 应用版本号记录表
 
 | 字段          | 类型           | 空  | 默认  | 注释  |
@@ -28,6 +27,64 @@
 |remark     |text |否   |    |    执行者ip     |
 |created_at |int(11)     |是   | 0  |   注册时间  |
 |updated_at |int(11)     |是   | 0  |   修改时间  |
+
+- band_bind_relation 手环与孩子帐号绑定关系
+
+| 字段          | 类型           | 空  | 默认  | 注释  |
+| ------------- |:-------------:| -----:|-----:|-----:|
+|cid      |int(11)     |是   |    |   孩子帐号UID     |
+|device_id |varchar(64) |是   |    |   设备号    |
+|uid |int(11) |是   |    |   家长UID    |
+|created_at |int(11)     |是   | 0  |   注册时间  |
+|updated_at |int(11)     |是   | 0  |   修改时间  |
+
+- band_child_common 
+
+| 字段          | 类型           | 空  | 默认  | 注释  |
+| ------------- |:-------------:| -----:|-----:|-----:|
+|cid      |int(11)     |是   |    |   主键id     |
+|level |int(11) |是   |    |   等级    |
+|total_steps |varchar |是   |    |   总步数    |
+|activity_percent80_days |enum |是   |    |   活力指数达到80%的天数    |
+|sleep_time_percent90_days |varchar |是   |    |   睡眠时间达到90%的天数      |
+|total_motion_time     |varchar |是    |    |    总运动时间     |
+|total_stars |int(11)     |是   | 0  |   获得总星星数  |
+|total_energy     |text |是   |    |    总获得的能量值     |
+|created_at |int(11)     |是   | 0  |   注册时间  |
+|updated_at |int(11)     |是   | 0  |   修改时间  |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
