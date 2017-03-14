@@ -1,5 +1,4 @@
 # Paiband - 手环数据库字典文档
--  band_admin_log  行为日志表
 | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
