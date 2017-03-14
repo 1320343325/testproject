@@ -12,7 +12,8 @@
 |remark |longtext     |否   | 0  |   日志备注  |
 |created_at |int(11)     |是   | 0  |   注册时间  |
 |updated_at |int(11)     |是   | 0  |   修改时间  |
-
+-
+-
 - band_app_versions 应用版本号记录表
 
 | 字段          | 类型           | 空  | 默认  | 注释  |
