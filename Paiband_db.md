@@ -536,16 +536,16 @@
 | 字段          | 类型           | 空  | 默认  | 注释  |
 | ------------- |:-------------:| -----:|-----:|-----:|
 |id      |int(11)     |否   |    |    自增ID    |
-|category |tinyint(4)  |否   |    |   孩子CID    |
-|weather |varchar(32)  |是   |    |   设备ID    |
-|times |varchar(32)  |是   |    |   心率值    |
-|age |varchar(32)  |是   |    |   心率采集时间点    |
-|stature |varchar(32)  |是   |    |   心率采集时间点    |
-|bmi |varchar(32)  |是   |    |   心率采集时间点    |
-|name |varchar(32)  |否   |    |   心率采集时间点    |
-|calorie |decimal(11)  |否   |    |   心率采集时间点    |
-|example |varchar(128)  |否   |    |   心率采集时间点    |
-|icon |varchar(256)  |否   |    |   心率采集时间点    |
+|category |tinyint(4)  |否   |    |   1:家务 2:运动锻炼 3:球类 4:灵敏协调    |
+|weather |varchar(32)  |是   |    |   天气要素    |
+|times |varchar(32)  |是   |    |   时段要素    |
+|age |varchar(32)  |是   |    |   年龄段    |
+|stature |varchar(32)  |是   |    |   身高评价    |
+|bmi |varchar(32)  |是   |    |   BMI评价    |
+|name |varchar(32)  |否   |    |   名称    |
+|calorie |decimal(11)  |否   |    |   消耗热量,消耗热量数值单位（大卡/每公斤/分）    |
+|example |varchar(128)  |否   |    |   视频事例    |
+|icon |varchar(256)  |否   |    |   图标    |
 |created_at |int(11)     |否   | 0  |   注册时间  |
 |updated_at |int(11)     |否   | 0  |   修改时间  |
 
